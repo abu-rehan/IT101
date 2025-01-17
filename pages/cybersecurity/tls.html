@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport Layer Security</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, section {
+            padding: 20px;
+            margin: 10px;
+        }
+        header {
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        section {
+            border-bottom: 1px solid #ddd;
+        }
+        h1, h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Transport Layer Security</h1>
+    </header>
+    <section id="ciphersuite">
+        <h2>A wish for secure connection over third party infrastructure:</h2>
+        <p>The client and the server applications want to communicate securely TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256</p>
+    </section>
+    <section id="AES">
+        <h2>symmetric key cryptography</h2>
+        <p>session cipher</p>
+    </section>
+    <section id="ECDHE">
+        <h2>Need a shared key: ECDHE</h2>
+        <p>generating symmetric key over a public channel</p>
+        <p>man in the middle</p>
+    </section>
+    <section id="RSA">
+        <h2>Need to verify the identity of the server: RSA</h2>
+        <p>mitm efforts: Self signed, sends request
+            copy and install
+        </p>
+    </section>
+    <section id="SHA">
+        <h2>Alter the message</h2>
+        <p>mitm alters a passing message
+            mitm replays- same transaction again
+        </p>
+    </section>
+
+</body>
+</html></section>
